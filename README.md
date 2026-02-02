@@ -1,0 +1,1 @@
+# glamcam-makehuman-clothing-assets
