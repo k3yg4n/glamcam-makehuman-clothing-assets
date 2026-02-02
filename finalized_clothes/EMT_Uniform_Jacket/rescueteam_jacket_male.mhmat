@@ -1,0 +1,35 @@
+# Material definition for rescueteam_jacket_male
+
+name rescueteam_jacket_male
+description Rescueteam_jacket_male material
+ambientColor 0.533333333333 0.533333333333 0.533333333333
+diffuseColor 1.0 1.0 1.0
+specularColor 0.152941176471 0.152941176471 0.152941176471
+shininess 0.01
+emissiveColor 0.0 0.0 0.0
+opacity 1.0
+translucency 0.0
+
+shadeless False
+wireframe False
+transparent False
+alphaToCoverage True
+backfaceCull False
+depthless False
+
+castShadows True
+
+receiveShadows True
+
+diffuseTexture rescueteam_jacket.png
+
+shader shaders/glsl/phong
+
+shaderConfig ambientOcclusion True
+shaderConfig normal False
+shaderConfig bump False
+shaderConfig displacement False
+shaderConfig vertexColors False
+shaderConfig spec False
+shaderConfig transparency True
+shaderConfig diffuse True
